@@ -14,6 +14,8 @@ def load_all_departments():
         yaml_data["description"] = description
         departments.append(yaml_data)
 
+
+
     return departments
 
 
@@ -32,7 +34,7 @@ def search_okf(query):
 
 # Test it
 if __name__ == "__main__":
-    question = "Where is the Cardiology department?"
+    question = "Where is the pediatrcis department?"
     matches = search_okf(question)
 
     if matches:
@@ -43,5 +45,4 @@ if __name__ == "__main__":
             print(f"Timings: {m['timings']}")
     else:
         print("No matching department found.")
-    
-        
+ 
