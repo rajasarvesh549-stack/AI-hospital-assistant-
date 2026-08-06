@@ -19,3 +19,8 @@ if __name__ == "__main__":
     print("---")
     print("First embedding (first 10 numbers only):")
     print(embeddings[0][:10])
+
+
+    
+
+
